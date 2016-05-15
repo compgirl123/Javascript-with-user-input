@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculate your Order</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Q2_CSS.css">
+		
+       <script src="Q2_Calculate_order.js">	
+	   </script>
+	</head>
+	<body>
+		<h2>Order Books Online</h2>
+	<table>
+     <tr>
+		<th>Book</th>
+		<th>Quantity</th>
+		<th>Price</th>
+	 </tr>
+	 <tr>
+		<td>Basic XHTML</td>
+		
+		<td>
+		
+			<input type="text" id="xhtml" name="XHTML"  size=4>
+		
+		</td>
+		
+		<td>$19.99</td>
+	 </tr>
+	 <tr>
+		<td>Intro to PHP</td>
+		<td><form >
+			<input type="text" id="php" name="PHP"  size=4>
+		</form></td>
+		<td>$86.00</td>
+	 </tr>
+	 <tr>
+		<td>Advanced JQuery</td>
+		<td><form >
+			<input type="text" id="jquery" name="Advanced_JQuery"  size=4>
+		</form></td>
+		<td>$55.00</td>
+	</tr>
+	<td><br/><td/>
+	<td><br/><td/>
+	<td><br/><td/>
+	<td><br/><td/>
+	
+	
+	<tr> 
+		<td>
+			
+			<button onclick="output()">Place Order</button>
+			
+		</td>
+	<tr/>
+
+	 
+	</table>
+		<div id="quan_xhtml"></div>
+		<div id="quan_php"></div>
+		<div id="quan_jquery"></div>
+		<br/>
+		<div id="total_cost"></div>
+	
+	</body>
+</html>
